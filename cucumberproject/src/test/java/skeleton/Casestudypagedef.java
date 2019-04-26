@@ -38,12 +38,13 @@ public class Casestudypagedef {
 	   Casestudylogin.categorydropid.click();
         Casestudylogin.electronics.click();
         Casestudylogin.subcategory.click();
-        Casestudylogin.laptop.click();
-        Casestudylogin.productname.sendKeys("HP Laptop");
-        Casestudylogin.price.sendKeys("30000");
+        Casestudylogin.headphone.click();
+        Casestudylogin.productname.sendKeys("Headphone");
+        Casestudylogin.price.sendKeys("3000");
         Casestudylogin.quantity.sendKeys("10");
-        Casestudylogin.brand.sendKeys("ABC");
-        Casestudylogin.description.sendKeys("windows 10 version");
+        Casestudylogin.brand.sendKeys("JBL");
+        Casestudylogin.description.sendKeys("JBL headphone");
+        Casestudylogin.Addproduct.click();
 
 	}
 

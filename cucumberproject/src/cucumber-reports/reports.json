@@ -1,0 +1,397 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-04-26T09:38:25.183Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7024473700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Registrationpagedef.init()"
+            }
+          },
+          {
+            "result": {
+              "duration": 5201604500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Casestudypagedef.init()"
+            }
+          },
+          {
+            "result": {
+              "duration": 4618181500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Loginstepdef.before()"
+            }
+          },
+          {
+            "result": {
+              "duration": 5763186900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Casestudy2.init()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Valid User Scenario",
+        "description": "",
+        "id": "login-feature;valid-user-scenario;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 343140000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Loginstepdef.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1543684400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The URL of TestMe App",
+            "match": {
+              "location": "Loginstepdef.the_URL_of_TestMe_App()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 155202600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters Lalitha as username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lalitha",
+                  "offset": 12
+                }
+              ],
+              "location": "Loginstepdef.user_enters_as_username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 213809100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters Password123 as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password123",
+                  "offset": 12
+                }
+              ],
+              "location": "Loginstepdef.user_enters_as_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "user is in  Home",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@valid"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-04-26T09:38:50.082Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4301241300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Registrationpagedef.init()"
+            }
+          },
+          {
+            "result": {
+              "duration": 4790244700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Casestudypagedef.init()"
+            }
+          },
+          {
+            "result": {
+              "duration": 5131370700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Loginstepdef.before()"
+            }
+          },
+          {
+            "result": {
+              "duration": 5353778000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Casestudy2.init()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Valid User Scenario",
+        "description": "",
+        "id": "login-feature;valid-user-scenario;;3",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d73.0.3683.103)\n  (Driver info: chromedriver\u003d2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform\u003dWindows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027BDC6-DX-3PQ5N62\u0027, ip: \u002710.116.241.187\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_201\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\\Users\\TRAINI~1.03\\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:56535}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}\nSession ID: bbbb2370527b98189744b74b83e35da5\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)\r\n\tat skeleton.Loginstepdef.after(Loginstepdef.java:30)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:65)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:50)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:50)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:49)\r\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:123)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:65)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat cucumber.api.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:147)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)\r\n",
+              "duration": 215708500,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Loginstepdef.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d73.0.3683.103)\n  (Driver info: chromedriver\u003d2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform\u003dWindows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027BDC6-DX-3PQ5N62\u0027, ip: \u002710.116.241.187\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_201\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\\Users\\TRAINI~1.03\\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:56535}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}\nSession ID: bbbb2370527b98189744b74b83e35da5\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat skeleton.Loginstepdef.the_URL_of_TestMe_App(Loginstepdef.java:35)\r\n\tat ✽.The URL of TestMe App(file:src/test/resources/skeleton/Login.feature:4)\r\n",
+              "duration": 6082114900,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "The URL of TestMe App",
+            "match": {
+              "location": "Loginstepdef.the_URL_of_TestMe_App()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22100,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user enters admin as username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 12
+                }
+              ],
+              "location": "Loginstepdef.user_enters_as_username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11200,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user enters Password456 as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password456",
+                  "offset": 12
+                }
+              ],
+              "location": "Loginstepdef.user_enters_as_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "user is in  Admin Home",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@valid"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-04-26T09:39:15.973Z",
+        "before": [
+          {
+            "result": {
+              "duration": 14144032900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Registrationpagedef.init()"
+            }
+          },
+          {
+            "result": {
+              "duration": 5931653800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Casestudypagedef.init()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3994019500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Loginstepdef.before()"
+            }
+          },
+          {
+            "result": {
+              "duration": 4150436200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Casestudy2.init()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "invalid scenario",
+        "description": "",
+        "id": "login-feature;invalid-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 394484500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Loginstepdef.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 567380500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "The URL of TestMe App",
+            "match": {
+              "location": "Loginstepdef.the_URL_of_TestMe_App()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2200300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enters invalid data",
+            "match": {
+              "location": "Loginstepdef.user_enters_invalid_data(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "abcxyz",
+                  "Password123"
+                ]
+              },
+              {
+                "cells": [
+                  "Lalitha",
+                  "Password123"
+                ]
+              },
+              {
+                "cells": [
+                  "abc123",
+                  "abc123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 454100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user is in  loginpage",
+            "match": {
+              "location": "Loginstepdef.user_is_in_loginpage(String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "bdc"
+                ]
+              },
+              {
+                "cells": [
+                  "ddc"
+                ]
+              },
+              {
+                "cells": [
+                  "avc"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@invalid"
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/skeleton/Login.feature",
+    "tags": []
+  }
+]

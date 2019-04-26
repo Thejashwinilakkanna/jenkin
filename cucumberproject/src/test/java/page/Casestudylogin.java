@@ -21,8 +21,8 @@ public class Casestudylogin {
 	public static WebElement electronics;
 	@FindBy(how = How.ID,using = "subcategorydropid")
 	public static WebElement subcategory;
-	@FindBy(how = How.CSS,using = "option[value='112112']")
-	public static WebElement laptop;
+	@FindBy(how = How.CSS,using = "option[value='112101']")
+	public static WebElement headphone;
 	@FindBy(how = How.ID,using = "prodid")
 	public static WebElement productname;
 	@FindBy(how = How.ID,using = "priceid")
@@ -33,6 +33,8 @@ public class Casestudylogin {
 	public static WebElement brand;
 	@FindBy(how = How.ID,using = "description")
 	public static WebElement description;
+	@FindBy(how = How.CSS,using = "input[name='Add Product']")
+	public static WebElement Addproduct;
 	
 	
 	
